@@ -39,7 +39,7 @@ app.use("/api/v1/likes", likeRouter)
 app.use("/api/v1/playlist", playlistRouter)
 app.use("/api/v1/dashboard", dashboardRouter)
 app.use("/api/v1/product", productRouter)
-app.use("api/v1/cart", cartRouter)
+app.use("/api/v1/cart", cartRouter)
 
 // http://localhost:8000/api/v1/users/register
 
